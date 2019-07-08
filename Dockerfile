@@ -2,7 +2,7 @@ FROM debian:stretch
 
 MAINTAINER Christian Luginbühl <dinkel@pimprecords.com>
 
-ENV CLAMAV_VERSION 0.100
+ENV CLAMAV_VERSION 0.101.2
 
 RUN echo "deb http://http.debian.net/debian/ stretch main contrib non-free" > /etc/apt/sources.list && \
     echo "deb http://http.debian.net/debian/ stretch-updates main contrib non-free" >> /etc/apt/sources.list && \
